@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-image-suffix",
+  "version": "0.0.1",
+  "description": "将ReactNative项目中带有@3x后缀的图片资源转换为小程序可识别的路径",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "kevin.bai",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-plugin-tester": "^10.1.0",
+    "jest": "^28.1.3"
+  }
+}
