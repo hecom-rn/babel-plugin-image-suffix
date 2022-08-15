@@ -15,7 +15,7 @@ function addImageSuffix(ext, node, state) {
                 const suffix = extImageSuffix[i];
                 const newPath = _path.join(imagePath, `${imageName}${suffix}${ext}`);
                 if (_fs.existsSync(newPath)) {
-                    node.arguments[0].value = _path.normalize(_path.relative(filePath, newPath));
+                    node.arguments[0].value = newPath;
                     break;
                 }
             }
